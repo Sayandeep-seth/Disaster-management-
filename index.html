@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: rgb(176, 102, 102);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            text-align: center;
+            background: url('images/banner.jpg') no-repeat center center/cover;
+            color: rgb(159, 148, 148);
+            padding: 50px 20px;
+        }
+        .disasters {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .disaster-card {
+            background: rgb(194, 184, 184);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+        }
+        .disaster-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background: #222;
+            color: rgb(193, 120, 120);
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Disaster Management</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#alerts">Alerts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="banner">
+        <h2>Be Prepared, Stay Safe</h2>
+        <p>Learn how to protect yourself from natural disasters.</p>
+    </section>
+
+    <section class="disasters">
+        <div class="disaster-card">
+            <img src="https://media.istockphoto.com/id/517893152/photo/tornado-on-the-business-road.jpg?s=612x612&w=0&k=20&c=7QY0KmID_6VR22tQchORefQjkfOmMcSox2qfXzGmFHc=" alt="Tornado">
+            <h3>Tornado</h3>
+            <p>Powerful rotating winds that can cause severe damage.</p>
+        </div>
+        <div class="disaster-card">
+            <img src="https://www.tibetrightscollective.in/assets/media/news/787191626_Tibet_Earthquake__1_.jpg" alt="Earthquake">
+            <h3>Earthquake</h3>
+            <p>Shaking of the ground due to tectonic movements.</p>
+        </div>
+        <div class="disaster-card">
+            <img src="https://static.vecteezy.com/system/resources/previews/053/873/196/non_2x/flooded-house-damaged-building-stormy-weather-disaster-scene-photo.jpeg" alt="Flood">
+            <h3>Flood</h3>
+            <p>Overflow of water that submerges land.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Disaster Management | Stay Safe</p>
+    </footer>
+</body>
+</html>
